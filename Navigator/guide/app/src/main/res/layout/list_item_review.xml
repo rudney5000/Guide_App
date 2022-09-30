@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/list_item_review_avatar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        />
+
+    <TextView
+        android:id="@+id/list_item_review_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/list_item_review_avatar"
+        android:textColor="@color/text_color_2"/>
+
+    <LinearLayout
+        android:id="@+id/list_item_review_rate_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/list_item_review_avatar"
+        android:layout_toRightOf="@id/list_item_review_avatar"
+        android:minHeight="20dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/list_item_review_rate_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/list_item_review_rate_container"
+        android:layout_alignTop="@id/list_item_review_rate_container"
+        android:layout_below="@id/list_item_review_name"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/list_item_review_rate_container"
+        android:gravity="center"
+        android:text="@string/place_detail_label_no_value"/>
+
+    <TextView
+        android:id="@+id/list_item_review_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/list_item_review_rate_container"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/list_item_review_rate_container"
+        android:layout_below="@id/list_item_review_name"
+        android:gravity="center"
+        android:textColor="@color/text_color_1"/>
+
+    <TextView
+        android:id="@+id/list_item_review_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_item_review_avatar"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text_color_1"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/list_item_review_text"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/gray_bg"/>
+
+</RelativeLayout>

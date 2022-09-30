@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style
+        name="dialog_animation_fade">
+        <item name="android:windowEnterAnimation">@anim/fade_in_dialog</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_dialog</item>
+    </style>
+
+    <style name="AppThemeTranslucent" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+
+    <style name="AppThemeSleep" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@color/ab_color_green_dark</item>
+    </style>
+
+    <style name="AppThemeEat" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@color/ab_color_blue_dark</item>
+    </style>
+
+    <style name="AppThemeEnjoy" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@color/ab_color_purple_dark</item>
+    </style>
+
+    <style name="AppThemeFav" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@color/ab_color_fav_dark</item>
+    </style>
+
+</resources>

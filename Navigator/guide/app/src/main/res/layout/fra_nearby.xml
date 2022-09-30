@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/nearby_mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/fra_nearby_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/search_edittext_bg"
+        android:hint="Search in Berlin"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:padding="10dp"
+        android:shadowDx="10"
+        android:shadowDy="20"
+        android:singleLine="true"
+        android:textColor="@color/text_color_1"
+        android:textColorHint="@color/search_text_color"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <ProgressBar
+        android:id="@+id/search_progress"
+        style="?android:attr/progressBarStyleInverse"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:indeterminate="true"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="@color/text_color_1"
+        android:visibility="gone"
+        android:layout_margin="10dp"
+        android:layout_alignTop="@+id/fra_nearby_search"
+        android:layout_alignRight="@+id/fra_nearby_search"
+        android:layout_alignEnd="@+id/fra_nearby_search" />
+
+    <LinearLayout
+        android:id="@+id/images_activate_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fra_nearby_fake_weight"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/image_activate_fav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/selector_map_fav"/>
+
+        <ImageView
+            android:id="@+id/image_activate_sleep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/selector_map_stay"/>
+
+        <ImageView
+            android:id="@+id/image_activate_eat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/selector_map_eat"/>
+
+        <ImageView
+            android:id="@+id/image_activate_enjoy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/selector_map_enjoy"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/fra_nearby_fake_weight"
+        android:layout_width="1dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/transparent"/>
+
+</RelativeLayout>

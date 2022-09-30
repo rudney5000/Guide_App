@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/gray_bg"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/fra_list_places_ab_container"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp">
+
+        <ImageView
+            android:id="@+id/fra_list_places_ab_back_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_white_back"/>
+
+        <TextView
+            android:id="@+id/fra_list_places_ab_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Sleep in Berlin"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/fra_list_places_ab_search_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/et_half_border_green"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:paddingLeft="5dp"
+            android:popupBackground="@android:color/white"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/fra_list_places_ab_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_white_search"/>
+
+        <ImageView
+            android:id="@+id/fra_list_places_ab_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_white_map"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fra_places_recyclerview"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:drawSelectorOnTop="true"
+        android:paddingTop="2dp"
+        />
+</LinearLayout>

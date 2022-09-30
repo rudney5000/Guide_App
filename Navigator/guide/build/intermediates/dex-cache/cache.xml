@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-813287a114066f8bef636ab1391d4d32745c79f0.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-09197f4844d78ec1f5e56df2b6b92fe7ada255a5.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-951c22165deea5a63886333a200fe641145c7d82.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-cb477348a1208b2ef48dfd8d2207fc2656405d56.jar" />
+    </item>
+    <item
+        jar="C:\Users\Erkin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\support-annotations-23.1.1-5f09ef30380f1f3ceb0235c4e2bf6e1ee2dd161f.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-7d422a00edf26a7eea7c97b8e684da04d1237301.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-58cfc64531eb4c2907832a772600cd78d0dcafca.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-95eea00cc7325cdc4f23c7c13843427df423da93.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-090deff38698de887e00acaa702e0143a5d02238.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-b3db2fa882bd3c3e4d4f6d2a46cdc0fa9a478801.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-b30a3977c19a1fea56ae3288d1f0f744a8959ab4.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-a795f632ceca9cb3f65d0705aa5c0a19bdde14d7.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-9c049fe52d2178156a00e998001e3350e9885351.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\internal_impl-23.1.1-5d0b6dfc09e02ccdec9f95752dd64232539da7e7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Erkin\.gradle\caches\modules-2\files-2.1\org.simpleframework\simple-xml\2.7.1\dd91fb744c2ff921407475cb29a1e3fee397d411\simple-xml-2.7.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dd91fb744c2ff921407475cb29a1e3fee397d411">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\simple-xml-2.7.1-8acd4f3f143c0401873ba9e082a0502cf7653735.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-3bc001dd456ddad36f73feeb550d98484273f9a5.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-d56959fc9ed32591d9a04040f7916684b8ccb5d8.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-7677dc6544b334b4f2cad84bcc4472715edbff6a.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-b8cd987e22828ec44acb54ebf7b9734332fb13c7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Erkin\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.4\b1b6ea3b7e4aa4f492509a4952029cd8e48019ad\commons-io-2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\commons-io-2.4-ea850aa46d28b7dfc377ae7e0901f340dd5f977f.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-688249f9e9accfba5fb7b2f876304875dd4a2b3c.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-8f4980a765ed85594714bf1223696c6b353979b5.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-e721bbd4b5e6cc9dff577ae84e09112a45211c30.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fd39f74f23c7bd9aeafe58c6d988a7329c3e2790">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-47c7ecb6665b7f3837820297673e085b0312ce1e.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-316fb0119afdc2cb5317f5798db81d93ef6502fa.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-d96c1ba152a22700df4a9c4d656f6dfb1d4b217a.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.2.2\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c364019628ff5b32e4930334e9db4680829f7115">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-3864f9abac7f2883ef799f4adf13a3550eb85d8d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Erkin\.gradle\caches\modules-2\files-2.1\com.j256.ormlite\ormlite-core\4.48\e579bd2905d0399af5029aaaf9817d5fa0ca88a5\ormlite-core-4.48.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\ormlite-core-4.48-69ae2bc961d3b17438c6d11c2101e0cc273a3ebd.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-1ee6501b6c33bf91043276c497cac6d4140ac20f.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-f7b65505cfaf9f7ff3b62a62895e53e940bc6839.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\libs\universal-image-loader-1.8.6.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="09995ba681982ca129af798c9eb21e79c4bffa45">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\universal-image-loader-1.8.6-202c100ec8058d65a0063cfc1f7798a4bb982e24.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-a295aaf53bee5c66f4e5904effdbed3dacaf2ac3.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.1.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b7a78990c10481f43cb4909f535ef4f11e60f1ab">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-94b9cd104e903a6f5306f52e0ac230cf2f52d1a3.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\dmbteam_city_guide_v1.1\pinterest_lib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ff4db3f52cc583a709a75479f7a176d8650cfc73">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-1d195f0bb09804472db4280a1bf351300922565c.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-315d27123ed3c17bc18d58b6bd13903b48660c4d.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-34ae4627eba2ae6a07f341e29ca10234131e3c13.jar" />
+    </item>
+    <item
+        jar="C:\Users\Erkin\.gradle\caches\modules-2\files-2.1\com.j256.ormlite\ormlite-android\4.48\afa06f539a4026c10b247386312aa67404b80a16\ormlite-android-4.48.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="afa06f539a4026c10b247386312aa67404b80a16">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\ormlite-android-4.48-896d7ad9f2409a0a6d006ee09d376b315da5097c.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\internal_impl-22.2.0-80b5200c829461f771221b3a724df959c3c7239c.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.4\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f7dc6b43d7c7f3d94e98531aef88269f9ed2a37b">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-6dcaed471cdbec373f0f86c680625cee9fad81f9.jar" />
+    </item>
+    <item
+        jar="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3013d965c748748ec9c7d0d42102e9abd1c9ed91">
+        <dex dex="F:\APPS\Moscow Guide\dmbteam_city_guide_v1.1\app\build\intermediates\pre-dexed\release\classes-f6589852a843a72ae225f00f8a56dd92e545e078.jar" />
+    </item>
+
+</items>

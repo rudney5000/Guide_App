@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/fra_place_detail_pager_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/fra_place_detail_pager"
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"/>
+
+
+                <ImageView
+                    android:id="@+id/fra_place_detail_fav"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:clickable="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignBottom="@id/fra_place_detail_pager_container"
+                android:background="@color/black_transparent_1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/fra_place_detail_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="75dp"
+                    android:clickable="true"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/fra_place_detail_photo_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/fra_place_detail_photo_count"
+                    android:src="@drawable/ic_details_camera"/>
+
+                <TextView
+                    android:id="@+id/fra_place_detail_photo_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/place_detail_photos_counter"
+                    android:textColor="@android:color/white"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/fra_place_detail_address_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fra_place_detail_pager_container"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/place_detail_label_address"
+                android:textColor="@color/ab_color_blue"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/fra_place_detail_address_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fra_place_detail_address_label"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/text_color_1"
+                android:textSize="16sp"/>
+
+            <ImageView
+                android:id="@+id/fra_place_detail_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/fra_place_detail_address_value"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:id="@+id/fra_place_detail_phone_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fra_place_detail_address_value"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/place_detail_label_phone"
+                android:textColor="@color/ab_color_blue"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/fra_place_detail_phone_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fra_place_detail_phone_label"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/text_color_1"
+                android:textSize="16sp"/>
+
+            <ImageView
+                android:id="@+id/fra_place_detail_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/fra_place_detail_phone_value"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+
+            <TextView
+                android:id="@+id/fra_place_tags_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fra_place_detail_phone_value"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/place_detail_label_tag"
+                android:textColor="@color/ab_color_blue"
+                android:textSize="18sp"/>
+
+            <HorizontalScrollView
+                android:id="@+id/fra_place_tags_container_scroll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fra_place_tags_label"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/fra_place_tags_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"/>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/fra_place_price_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fra_place_tags_container_scroll"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/place_detail_label_price_level"
+                android:textColor="@color/ab_color_blue"
+                android:textSize="18sp"/>
+
+            <LinearLayout
+                android:id="@+id/fra_place_price_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fra_place_price_label"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:minHeight="20dp"
+                android:minWidth="1dp"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/fra_place_price_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/fra_place_price_container"
+                android:layout_alignTop="@id/fra_place_price_container"
+                android:layout_below="@id/fra_place_price_label"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/fra_place_price_container"
+                android:gravity="center"
+                android:text="@string/place_detail_label_no_value"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/fra_place_rating_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fra_place_price_container"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/place_detail_label_rating"
+                android:textColor="@color/ab_color_blue"
+                android:textSize="18sp"/>
+
+            <LinearLayout
+                android:id="@+id/fra_place_rating_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fra_place_rating_label"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:minHeight="20dp"
+                android:minWidth="1dp"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:id="@+id/fra_place_rating_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/fra_place_rating_container"
+                android:layout_alignTop="@id/fra_place_rating_container"
+                android:layout_below="@id/fra_place_rating_label"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/fra_place_rating_container"
+                android:gravity="center"
+                android:text="@string/place_detail_label_no_value"
+                android:textSize="16sp"/>
+
+            <ImageView
+                android:id="@+id/fra_place_detail_eye"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/fra_place_rating_label"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/fra_place_detail_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/ic_white_back"/>
+
+    </RelativeLayout>
+</ScrollView>

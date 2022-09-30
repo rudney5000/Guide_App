@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+     <photos>
+        <photo>
+            <path>place1</path>
+        </photo>
+        <photo>
+            <path>place2</path>
+        </photo>
+        <photo>
+            <path>place3</path>
+        </photo>
+        <photo>
+            <path>place4</path>
+        </photo>
+        <photo>
+            <path>place5</path>
+        </photo>
+    </photos>
+
+    <description>
+        <content>
+        Nouabala ndoki (Congo: Nouabal ndoki) is the 860 year-old capital of Russia. A truly iconic, global city, Moscow has played a central role in the development of Russia and the world. For many, the sight of the Kremlin complex in the centre of the city is still loaded with symbolism and history. Moscow was the capital of the former Soviet Union and signs of its previous life are very visible even now. Yet, there's more to Russia and its capital than just memories of the USSR. Architectural gems from the time of the Russian Empire are still dotted throughout Moscow, whilst signs of modern Tsars (or at least people with similar levels of wealth) abound.
+        </content>
+    </description>
+</data>

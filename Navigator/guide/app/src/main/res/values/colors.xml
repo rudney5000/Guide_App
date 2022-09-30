@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="search_text_color">#c9c9c9</color>
+
+    <color name="gray_bg">#e4e4e4</color>
+    <color name="gray_bg_2">#7d7d7d</color>
+
+
+    <color name="text_color_1">#6f6f6f</color>
+    <color name="text_color_2">#161616</color>
+
+    <color name="ab_color_green">#39ca74</color>
+    <color name="ab_color_blue">#2d8dd6</color>
+    <color name="ab_color_purple">#904fad</color>
+    <color name="ab_color_fav">#E95BA6</color>
+
+    <color name="ab_color_green_dark">#28b061</color>
+    <color name="ab_color_blue_dark">#2e85bf</color>
+    <color name="ab_color_purple_dark">#834b99</color>
+    <color name="ab_color_fav_dark">#cc5092</color>
+
+    <color name="black_transparent_1">#80000000</color>
+    <drawable name="black_transparent_2">#B4000000</drawable>
+</resources>
